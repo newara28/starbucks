@@ -4,6 +4,8 @@ html, body {
     height: 100%;
 }
 
+/* home */
+
 header {
     position:fixed;
     top:0;
@@ -73,6 +75,8 @@ a:hover {
     padding: 10%;
 }
 
+/* font */
+
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
@@ -89,9 +93,7 @@ li, p2, p3, p4 {
     font-weight: 700;
 }
 
-.bold {
-    font-weight: 900;
-}
+/* about, about2, stores, partner, container7 */
 
 #about, #partner {
     margin: 50px;
@@ -103,6 +105,8 @@ li, p2, p3, p4 {
     padding: 50px;
     background-color: #00704A;
 }
+
+/* product */
 
 #product {
     margin: 90px;
@@ -124,6 +128,14 @@ li, p2, p3, p4 {
     width: 50%;
     margin: 35px 45px;
 }
+
+/* ion-icon */
+
+ion-icon {
+    font-size: 4rem;
+}
+
+/* footer */
 
 footer {
     height: 130px;
